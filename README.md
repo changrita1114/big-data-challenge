@@ -23,8 +23,20 @@ Cleaned and transformed data into four dataframes to import into AWS RDS.
 * vine table
 ![vine_table](https://github.com/changrita1114/big-data-challenge/blob/main/level-1/sample_fr_vine_table.png?raw=true)
 
+### Vine Review Comparisons
+There are more review counts in non-vine than in vine in both `kitchen` and `PC` datasets. Furthermore, some of the non-vine reviews help_votes are over 5000 in both `kitchen` and `PC`, but vine reviews in `kitchen` and `PC` only have about 3000 votes. In conclusion, the vine reviews might have some personal bias.
+
+* Kitchen Non-vine Review
+![kitchen_n_vine]()
+* Kitchen Vine Review
+![kitchen_y_vine]()
+* PC Non-vine Review
+![pc_n_vine]()
+* PC Vine Review
+![pc_y_vine]()
+
 ### Technical Issue
-The `products` tables from `PC` and `Kitchen` can't be imported into my RDS, but the `products` table of `sample fr` can be imported into my RDS.
+The `products` tables from `PC` and `kitchen` can't be imported into my RDS, but the `products` table of `sample_fr` can be imported into my RDS.
 There are some unknown issues to prevent `products` table from being imported into RDS.
 
 ## Disclaimer
